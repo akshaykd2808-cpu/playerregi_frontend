@@ -4,7 +4,7 @@
   top: 60px; /* Below navbar */
   left: -250px; /* Hidden by default on mobile */
   width: 250px;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 120px);
   background-color: #87ceeb; /* Sky blue */
   color: white;
   transition: left 0.3s ease;

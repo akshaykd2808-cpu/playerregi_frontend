@@ -57,6 +57,16 @@ body {
   z-index: 1000;
 }
 
+/* Main element styles for layout */
+main {
+  margin-top: 60px; /* Below header */
+  margin-left: 250px; /* Beside sidebar on desktop */
+  flex: 1; /* Grow to push footer down */
+  padding: 10px;
+  background-color: #f8f9fa;
+  overflow-y: auto;
+}
+
 /* Responsive Layout */
 @media (min-width: 769px) {
   .content {
@@ -71,6 +81,10 @@ body {
 
   .content {
     margin-left: 0;
+  }
+
+  main {
+    margin-left: 0; /* No sidebar margin on mobile */
   }
 }
 

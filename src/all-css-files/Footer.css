@@ -4,7 +4,7 @@
   color: white;
   padding: 40px 0 20px;
   margin-top: auto;
-  
+  margin-left: 250px; /* Beside sidebar on desktop */
 }
 
 .footer-container {
