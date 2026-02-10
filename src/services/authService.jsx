@@ -1,5 +1,5 @@
 import axiosInstance from "../api/axiosInstance";
-;
+
 export const register = (data) => {
   return axiosInstance.post("/Auth/Register", data);
 };
@@ -11,4 +11,9 @@ export const login = (data) => {
 export const logout = () => {
   //localStorage.removeItem("token");
   return axiosInstance.post("/Auth/Logout")
+};
+
+export const createform = (data) => {
+
+  return axiosInstance.post("/Forms/CreateForm", data)
 };

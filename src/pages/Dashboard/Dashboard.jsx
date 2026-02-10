@@ -4,7 +4,6 @@ import '../../all-css-files/Dashboard.css';
 
 const Dashboard = () => {
 
-  console.log("akshay d");
   
   return (
     <div className="dashboard">

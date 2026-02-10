@@ -42,8 +42,11 @@ const Header = () => {
           <Link to="/dashboard" className="navbar-link" onClick={closeMenu}>
             Dashboard
           </Link>
-          <Link to="/add-product" className="navbar-link" onClick={closeMenu}>
+          <Link to="/addform" className="navbar-link" onClick={closeMenu}>
             Add Regristarion Form
+          </Link>
+          <Link to="/addcustomfields" className="navbar-link" onClick={closeMenu}>
+            Add Custom Fields
           </Link>
           {isLoginPage ? (
             <Link to="/login" className="navbar-link" onClick={closeMenu}>
